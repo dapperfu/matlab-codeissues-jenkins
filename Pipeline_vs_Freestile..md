@@ -4,7 +4,7 @@ Using a Jenkinsfile and a Pipeline project is often a better choice than a Frees
 
     Reproducibility: Jenkins Pipeline ensures that your build and deployment steps are reproducible. By storing the pipeline configuration in source control, you can be certain that the same set of instructions is used for every build and deployment. Freestyle projects can lead to configuration drift and inconsistencies, as they rely on manual configurations that can be easily overlooked or changed.
 
-    Complex Workflow Support: Jenkins Pipeline excels at handling complex workflows and dependencies between different build and deployment stages. You can define sequential, parallel, and conditional execution of tasks, which is often necessary for complex, multi-component applications. Freestyle projects are not as capable of representing these complex workflows without scripting, which can quickly become error-prone and difficult to maintain.
+    Complex Workflow Support: Jenkins Pipeline excels at hmandling complex workflows and dependencies between different build and deployment stages. You can define sequential, parallel, and conditional execution of tasks, which is often necessary for complex, multi-component applications. Freestyle projects are not as capable of representing these complex workflows without scripting, which can quickly become error-prone and difficult to maintain.
 
     Automated Testing: With Jenkins Pipeline, you can easily incorporate automated testing, including unit tests, integration tests, and acceptance tests, directly into your build and deployment process. You can define stages for testing and automatically fail the pipeline if any test fails. This level of integration is much more challenging to achieve with Freestyle projects.
 

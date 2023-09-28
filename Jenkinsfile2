@@ -1,0 +1,12 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Check MATLAB Code') {
+            steps {
+                runMATLABBuild()
+                recordIssues(tools: [sarif(pattern: '**/codeIssues.sarif')])
+            }
+        }
+    }
+}
